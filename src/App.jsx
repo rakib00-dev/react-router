@@ -23,6 +23,12 @@ function App() {
     {
       path: '/profiles',
       element: <ProfilesPage />,
+      children: [
+        {
+          path: '/profiles/:profileId',
+          element: <ProfilePage />,
+        },
+      ],
     },
   ]);
 
