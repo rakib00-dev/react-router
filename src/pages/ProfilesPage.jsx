@@ -20,7 +20,7 @@ const ProfilesPage = () => {
           </NavLink>
         ))}
       </div>
-      <Outlet />
+      <Outlet></Outlet>
     </div>
   );
 };
